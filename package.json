@@ -1,0 +1,38 @@
+{
+  "name": "renovate-config",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "Shared Renovate Configurations",
+  "author": {
+    "name": "Glory Wong",
+    "email": "glorywong1001@gmail.com",
+    "url": "https://glorywong.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/GloryWong/renovate-config#readme",
+  "repository": "github:GloryWong/renovate-config",
+  "bugs": "https://github.com/GloryWong/renovate-config/issues",
+  "keywords": [],
+  "scripts": {
+    "test": "renovate-config-validator default.json",
+    "prepare": "pnpm simple-git-hooks",
+    "lint": "eslint .",
+    "lint:fix": "pnpm lint --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.24.0",
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "eslint": "^8.57.0",
+    "lint-staged": "^15.2.7",
+    "renovate": "^38.11.0",
+    "simple-git-hooks": "^2.11.1"
+  },
+  "simple-git-hooks": {
+    "commit-msg": "pnpm commitlint --edit ${1}",
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "pnpm lint:fix"
+  }
+}
