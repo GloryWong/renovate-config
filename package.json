@@ -30,7 +30,7 @@
   },
   "simple-git-hooks": {
     "commit-msg": "pnpm commitlint --edit ${1}",
-    "pre-commit": "pnpm lint-staged"
+    "pre-commit": "pnpm lint-staged && pnpm test"
   },
   "lint-staged": {
     "*": "pnpm lint:fix"
