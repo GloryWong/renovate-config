@@ -10,6 +10,8 @@ The default configuration is intended to be used by most projects.
 
 ## How to Use
 
+> Go to [Github APP Renovate](https://github.com/apps/renovate) and click **configure** to add your repositories to Renovate
+
 To use these configurations in your project, extend the desired configuration(s) in your `renovate.json` file. For example:
 
 ```json
