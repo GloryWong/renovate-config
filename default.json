@@ -1,12 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Default configuration",
-  "timezone": "Asia/Shanghai",
   "extends": [
     "config:recommended",
     "group:allNonMajor",
     ":automergeMinor",
     ":semanticCommitTypeAll(chore)",
     "schedule:nonOfficeHours"
-  ]
+  ],
+  "rangeStrategy": "bump",
+  "timezone": "Asia/Shanghai"
 }
