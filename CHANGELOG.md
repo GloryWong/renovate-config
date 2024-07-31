@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/GloryWong/renovate-config/compare/v1.0.1...v1.1.0) (2024-07-31)
+
+
+### Features
+
+* Create npm.json ([285a437](https://github.com/GloryWong/renovate-config/commit/285a4377e8b53da58e6f6bf25ee3e67a60cd821b))
+
 ## [1.0.1](https://github.com/GloryWong/renovate-config/compare/v1.0.0...v1.0.1) (2024-07-30)
 
 
