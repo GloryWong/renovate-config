@@ -25,7 +25,7 @@
     "@commitlint/config-conventional": "^19.2.2",
     "eslint": "^9.9.0",
     "lint-staged": "^15.2.8",
-    "renovate": "^38.23.3",
+    "renovate": "^38.24.0",
     "simple-git-hooks": "^2.11.1"
   },
   "simple-git-hooks": {
