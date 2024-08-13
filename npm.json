@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>GloryWong/renovate-config", "npm:unpublishSafe"],
+  "extends": ["github>GloryWong/renovate-config", "npm:unpublishSafe", "helpers:disableTypesNodeMajor"],
   "packageRules": [
     {
       "packageNames": ["node"],
