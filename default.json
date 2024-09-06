@@ -6,7 +6,7 @@
     "group:allNonMajor",
     ":automergeMinor",
     ":semanticCommitTypeAll(chore)",
-    "schedule:nonOfficeHours"
+    "schedule:earlyMondays"
   ],
   "rangeStrategy": "bump",
   "timezone": "Asia/Shanghai"
