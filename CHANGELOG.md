@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/GloryWong/renovate-config/compare/v1.2.0...v1.2.1) (2024-09-07)
+
+
+### Bug Fixes
+
+* Update default.json ([61e2adc](https://github.com/GloryWong/renovate-config/commit/61e2adcd74f3b88ad6f0177bd7924876f7476935))
+
 ## [1.2.0](https://github.com/GloryWong/renovate-config/compare/v1.1.0...v1.2.0) (2024-08-13)
 
 
