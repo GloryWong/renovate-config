@@ -5,7 +5,6 @@
     "config:recommended",
     "group:allNonMajor",
     ":automergeMinor",
-    ":semanticCommitTypeAll(chore)",
     "schedule:earlyMondays"
   ],
   "rangeStrategy": "bump",
