@@ -5,6 +5,12 @@
     {
       "packageNames": ["node"],
       "enabled": false
+    },
+    {
+      "matchDepTypes": [
+        "peerDependencies"
+      ],
+      "enabled": false
     }
   ]
 }
