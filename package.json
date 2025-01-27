@@ -20,12 +20,12 @@
     "lint:fix": "pnpm lint --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.14.0",
+    "@antfu/eslint-config": "^3.16.0",
     "@commitlint/cli": "^19.6.1",
     "@commitlint/config-conventional": "^19.6.0",
     "eslint": "^9.18.0",
-    "lint-staged": "^15.4.1",
-    "renovate": "^39.113.0",
+    "lint-staged": "^15.4.2",
+    "renovate": "^39.126.1",
     "simple-git-hooks": "^2.11.1"
   },
   "simple-git-hooks": {
