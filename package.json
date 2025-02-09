@@ -21,11 +21,11 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.16.0",
-    "@commitlint/cli": "^19.6.1",
-    "@commitlint/config-conventional": "^19.6.0",
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-conventional": "^19.7.1",
     "eslint": "^9.19.0",
     "lint-staged": "^15.4.3",
-    "renovate": "^39.145.1",
+    "renovate": "^39.162.1",
     "simple-git-hooks": "^2.11.1"
   },
   "simple-git-hooks": {
