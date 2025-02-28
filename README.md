@@ -38,4 +38,14 @@ To use these presets in projects, extend the desired preset(s) in the `renovate.
 }
 ```
 
+You can also set renovate [base branches](https://docs.renovatebot.com/configuration-options/#basebranches). For example scan and update only the `dev` branch
+
+```json
+{
+  "baseBranches": [
+    "dev"
+  ]
+}
+```
+
 > More GitHub preset usage, refer to https://docs.renovatebot.com/config-presets/#github
