@@ -23,9 +23,9 @@
     "@antfu/eslint-config": "^4.3.0",
     "@commitlint/cli": "^19.7.1",
     "@commitlint/config-conventional": "^19.7.1",
-    "eslint": "^9.20.1",
+    "eslint": "^9.21.0",
     "lint-staged": "^15.4.3",
-    "renovate": "^39.176.4",
+    "renovate": "^39.182.4",
     "simple-git-hooks": "^2.11.1"
   },
   "simple-git-hooks": {
