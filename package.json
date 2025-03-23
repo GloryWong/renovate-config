@@ -25,8 +25,8 @@
     "@commitlint/config-conventional": "^19.8.0",
     "eslint": "^9.22.0",
     "lint-staged": "^15.5.0",
-    "renovate": "^39.200.2",
-    "simple-git-hooks": "^2.11.1"
+    "renovate": "^39.210.0",
+    "simple-git-hooks": "^2.12.1"
   },
   "simple-git-hooks": {
     "commit-msg": "pnpm commitlint --edit ${1}",
