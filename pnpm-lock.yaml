@@ -24,8 +24,8 @@ importers:
         specifier: ^15.5.2
         version: 15.5.2
       renovate:
-        specifier: ^39.264.0
-        version: 39.264.0(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^39.264.1
+        version: 39.264.1(encoding@0.1.13)(typanion@3.14.0)
       simple-git-hooks:
         specifier: ^2.13.0
         version: 2.13.0
@@ -4025,8 +4025,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.264.0:
-    resolution: {integrity: sha512-/XoV0NWdwvjotd94PgQ9WU7A7/xGpUtwxwWaE78qY2ZgHjNe/+dA1v5dpJh9tqn6W/4vW38jSBjxvo6sylV5gA==}
+  renovate@39.264.1:
+    resolution: {integrity: sha512-BCdQnhYLSil3+aXeOxu/qul1tY9vBOzJUtklHnTcZm1DXtqp/MC2+vRIKP63vqctmipD1uqBaU1N+pPdNoYmjw==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -6075,7 +6075,7 @@ snapshots:
 
   '@kwsites/file-exists@1.1.1':
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
 
@@ -6113,12 +6113,12 @@ snapshots:
 
   '@npmcli/fs@3.1.1':
     dependencies:
-      semver: 7.7.1
+      semver: 7.7.2
     optional: true
 
   '@npmcli/fs@4.0.0':
     dependencies:
-      semver: 7.7.1
+      semver: 7.7.2
 
   '@one-ini/wasm@0.2.0': {}
 
@@ -6981,7 +6981,7 @@ snapshots:
       '@typescript-eslint/types': 8.32.1
       '@typescript-eslint/typescript-estree': 8.32.1(typescript@5.5.4)
       '@typescript-eslint/visitor-keys': 8.32.1
-      debug: 4.4.0
+      debug: 4.4.1
       eslint: 9.27.0(jiti@2.4.2)
       typescript: 5.5.4
     transitivePeerDependencies:
@@ -7001,7 +7001,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/typescript-estree': 8.32.1(typescript@5.5.4)
       '@typescript-eslint/utils': 8.32.1(eslint@9.27.0(jiti@2.4.2))(typescript@5.5.4)
-      debug: 4.4.0
+      debug: 4.4.1
       eslint: 9.27.0(jiti@2.4.2)
       ts-api-utils: 2.1.0(typescript@5.5.4)
       typescript: 5.5.4
@@ -7016,11 +7016,11 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 8.32.0
       '@typescript-eslint/visitor-keys': 8.32.0
-      debug: 4.4.0
+      debug: 4.4.1
       fast-glob: 3.3.2
       is-glob: 4.0.3
       minimatch: 9.0.5
-      semver: 7.7.1
+      semver: 7.7.2
       ts-api-utils: 2.1.0(typescript@5.5.4)
       typescript: 5.5.4
     transitivePeerDependencies:
@@ -7030,11 +7030,11 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 8.32.1
       '@typescript-eslint/visitor-keys': 8.32.1
-      debug: 4.4.0
+      debug: 4.4.1
       fast-glob: 3.3.2
       is-glob: 4.0.3
       minimatch: 9.0.5
-      semver: 7.7.1
+      semver: 7.7.2
       ts-api-utils: 2.1.0(typescript@5.5.4)
       typescript: 5.5.4
     transitivePeerDependencies:
@@ -7235,7 +7235,7 @@ snapshots:
       lodash: 4.17.21
       micromatch: 4.0.8
       p-limit: 2.3.0
-      semver: 7.7.1
+      semver: 7.7.2
       strip-ansi: 6.0.1
       tar: 6.2.1
       tinylogic: 2.0.0
@@ -7295,7 +7295,7 @@ snapshots:
 
   agent-base@7.1.1:
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
 
@@ -7446,7 +7446,7 @@ snapshots:
 
   builtins@5.1.0:
     dependencies:
-      semver: 7.7.1
+      semver: 7.7.2
 
   bunyan@1.8.15:
     optionalDependencies:
@@ -7822,7 +7822,7 @@ snapshots:
       '@one-ini/wasm': 0.2.0
       commander: 13.1.0
       minimatch: 10.0.1
-      semver: 7.7.1
+      semver: 7.7.2
 
   electron-to-chromium@1.5.103: {}
 
@@ -7916,12 +7916,12 @@ snapshots:
   eslint-compat-utils@0.5.1(eslint@9.27.0(jiti@2.4.2)):
     dependencies:
       eslint: 9.27.0(jiti@2.4.2)
-      semver: 7.7.1
+      semver: 7.7.2
 
   eslint-compat-utils@0.6.4(eslint@9.27.0(jiti@2.4.2)):
     dependencies:
       eslint: 9.27.0(jiti@2.4.2)
-      semver: 7.7.1
+      semver: 7.7.2
 
   eslint-config-flat-gitignore@2.1.0(eslint@9.27.0(jiti@2.4.2)):
     dependencies:
@@ -7996,13 +7996,13 @@ snapshots:
       '@es-joy/jsdoccomment': 0.50.2
       are-docs-informative: 0.0.2
       comment-parser: 1.4.1
-      debug: 4.4.0
+      debug: 4.4.1
       escape-string-regexp: 4.0.0
       eslint: 9.27.0(jiti@2.4.2)
       espree: 10.3.0
       esquery: 1.6.0
       parse-imports-exports: 0.2.4
-      semver: 7.7.1
+      semver: 7.7.2
       spdx-expression-parse: 4.0.0
     transitivePeerDependencies:
       - supports-color
@@ -8031,7 +8031,7 @@ snapshots:
       globals: 15.15.0
       ignore: 5.3.2
       minimatch: 9.0.5
-      semver: 7.7.1
+      semver: 7.7.2
 
   eslint-plugin-no-only-tests@3.3.0: {}
 
@@ -8068,7 +8068,7 @@ snapshots:
 
   eslint-plugin-toml@0.12.0(eslint@9.27.0(jiti@2.4.2)):
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       eslint: 9.27.0(jiti@2.4.2)
       eslint-compat-utils: 0.6.4(eslint@9.27.0(jiti@2.4.2))
       lodash: 4.17.21
@@ -8094,7 +8094,7 @@ snapshots:
       pluralize: 8.0.0
       regexp-tree: 0.1.27
       regjsparser: 0.12.0
-      semver: 7.7.1
+      semver: 7.7.2
       strip-indent: 4.0.0
 
   eslint-plugin-unused-imports@4.1.4(@typescript-eslint/eslint-plugin@8.32.1(@typescript-eslint/parser@8.32.1(eslint@9.27.0(jiti@2.4.2))(typescript@5.5.4))(eslint@9.27.0(jiti@2.4.2))(typescript@5.5.4))(eslint@9.27.0(jiti@2.4.2)):
@@ -8110,13 +8110,13 @@ snapshots:
       natural-compare: 1.4.0
       nth-check: 2.1.1
       postcss-selector-parser: 6.1.1
-      semver: 7.7.1
+      semver: 7.7.2
       vue-eslint-parser: 10.1.3(eslint@9.27.0(jiti@2.4.2))
       xml-name-validator: 4.0.0
 
   eslint-plugin-yml@1.18.0(eslint@9.27.0(jiti@2.4.2)):
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       escape-string-regexp: 4.0.0
       eslint: 9.27.0(jiti@2.4.2)
       eslint-compat-utils: 0.6.4(eslint@9.27.0(jiti@2.4.2))
@@ -8245,7 +8245,7 @@ snapshots:
 
   extract-zip@2.0.1:
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       get-stream: 5.2.0
       yauzl: 2.10.0
     optionalDependencies:
@@ -8484,7 +8484,7 @@ snapshots:
       es6-error: 4.1.1
       matcher: 3.0.0
       roarr: 2.15.4
-      semver: 7.7.1
+      semver: 7.7.2
       serialize-error: 7.0.1
 
   global-directory@4.0.1:
@@ -8599,7 +8599,7 @@ snapshots:
   http-proxy-agent@7.0.2:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.4.0
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
     optional: true
@@ -8612,7 +8612,7 @@ snapshots:
   https-proxy-agent@7.0.5:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.4.0
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
 
@@ -8847,7 +8847,7 @@ snapshots:
       acorn: 8.14.0
       eslint-visitor-keys: 3.4.3
       espree: 9.6.1
-      semver: 7.7.1
+      semver: 7.7.2
 
   jsonc-parser@3.3.1: {}
 
@@ -9401,7 +9401,7 @@ snapshots:
 
   micromark@2.11.4:
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       parse-entities: 2.0.0
     transitivePeerDependencies:
       - supports-color
@@ -9409,7 +9409,7 @@ snapshots:
   micromark@4.0.1:
     dependencies:
       '@types/debug': 4.1.12
-      debug: 4.4.0
+      debug: 4.4.1
       decode-named-character-reference: 1.0.2
       devlop: 1.1.0
       micromark-core-commonmark: 2.0.2
@@ -9574,7 +9574,7 @@ snapshots:
 
   node-abi@3.65.0:
     dependencies:
-      semver: 7.7.1
+      semver: 7.7.2
     optional: true
 
   node-fetch@2.7.0(encoding@0.1.13):
@@ -9592,7 +9592,7 @@ snapshots:
       make-fetch-happen: 13.0.1
       nopt: 7.2.1
       proc-log: 4.2.0
-      semver: 7.7.1
+      semver: 7.7.2
       tar: 6.2.1
       which: 4.0.0
     transitivePeerDependencies:
@@ -9622,7 +9622,7 @@ snapshots:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.15.0
-      semver: 7.7.1
+      semver: 7.7.2
       validate-npm-package-license: 3.0.4
 
   normalize-url@6.1.0: {}
@@ -10020,7 +10020,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.264.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.264.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.777.0
       '@aws-sdk/client-ec2': 3.779.0
@@ -10156,7 +10156,7 @@ snapshots:
 
   require-in-the-middle@7.4.0:
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       module-details-from-path: 1.0.3
       resolve: 1.22.8
     transitivePeerDependencies:
@@ -10330,7 +10330,7 @@ snapshots:
     dependencies:
       '@kwsites/file-exists': 1.1.1
       '@kwsites/promise-deferred': 1.1.1
-      debug: 4.4.0
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
 
@@ -10354,7 +10354,7 @@ snapshots:
   socks-proxy-agent@8.0.4:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.4.0
+      debug: 4.4.1
       socks: 2.8.3
     transitivePeerDependencies:
       - supports-color
@@ -10802,7 +10802,7 @@ snapshots:
   vite-node@3.1.1(@types/node@22.0.0)(jiti@2.4.2)(yaml@2.7.1):
     dependencies:
       cac: 6.7.14
-      debug: 4.4.0
+      debug: 4.4.1
       es-module-lexer: 1.6.0
       pathe: 2.0.3
       vite: 6.2.6(@types/node@22.0.0)(jiti@2.4.2)(yaml@2.7.1)
@@ -10843,7 +10843,7 @@ snapshots:
       '@vitest/spy': 3.1.1
       '@vitest/utils': 3.1.1
       chai: 5.2.0
-      debug: 4.4.0
+      debug: 4.4.1
       expect-type: 1.2.1
       magic-string: 0.30.17
       pathe: 2.0.3
@@ -10875,14 +10875,14 @@ snapshots:
 
   vue-eslint-parser@10.1.3(eslint@9.27.0(jiti@2.4.2)):
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       eslint: 9.27.0(jiti@2.4.2)
       eslint-scope: 8.3.0
       eslint-visitor-keys: 4.2.0
       espree: 10.3.0
       esquery: 1.6.0
       lodash: 4.17.21
-      semver: 7.7.1
+      semver: 7.7.2
     transitivePeerDependencies:
       - supports-color
 
